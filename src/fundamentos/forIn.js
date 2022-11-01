@@ -4,14 +4,16 @@
 //   console.log(notas[i]);
 // }
 
-const pessoa = {
+const pessoa = 
+{
   nome: "Mauricio",
   idade: 23,
   peso: 60,
   imc: 56.7,
 };
 
-for (atributo in pessoa) {
+for (let atributo in pessoa) 
+{
   // console.log(´${atributo} = ${pessoa[atributo]}´)
   console.log(atributo + " = " + pessoa[atributo]);
 }
