@@ -13,3 +13,8 @@ const escola = "Cod3r";
 // console.log("Mauro, Nelson, Pedro".split(","));
 let vetor = "Mauro, Nelson, Pedro".split(",");
 console.log("elemento do vetor " + vetor);
+
+let num = 0.345677744;
+
+let converter = num.split(".");
+console.log(converter[0],)
